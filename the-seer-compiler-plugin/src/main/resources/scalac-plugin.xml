@@ -1,0 +1,4 @@
+<plugin>
+    <name>marker</name>
+    <classname>prototype.the.seer.compiler.plugin.TheSeer</classname>
+</plugin>
