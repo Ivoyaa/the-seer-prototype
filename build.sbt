@@ -24,12 +24,6 @@ lazy val examples =
     Seq(
       // compilerPlugin("prototype" %% "the-seer-compiler-plugin" % "develop-SNAPSHOT"),
       "org.scalatest" %% "scalatest" % "3.2.16" % Test,
-      // Можно закомментировать, чтобы убедиться, что % Optional действует
-      "io.circe"        %% "circe-generic" % "0.14.1",
-      "io.circe"        %% "circe-core" % "0.14.1",
-      "com.tethys-json" %% "tethys-core" % "0.26.0",
-      "com.tethys-json" %% "tethys-jackson" % "0.26.0",
-      "com.tethys-json" %% "tethys-derivation" % "0.26.0",
     )
   )
     .dependsOn(
